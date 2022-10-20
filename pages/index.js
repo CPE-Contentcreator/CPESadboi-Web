@@ -11,9 +11,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title}>CPE Sadboi Profile</div>
         <div className={styles.mainli}>
-          <Link href="/niwatchai"><li><a>63070501025 Niwatchai Wangtrakuldee</a></li></Link>
-          <Link href="/niwatchai"><li><a>63070501025 Niwatchai Wangtrakuldee</a></li></Link>
-          <Link href="/niwatchai"><li><a>63070501025 Niwatchai Wangtrakuldee</a></li></Link>
+          <Link href="https://github.com/nwtkd"><li><a>Niwatchai Wangtrakuldee</a></li></Link>
+          <Link href="https://github.com/ksupasate"><li><a>Supasate Vorathammathorn</a></li></Link>
         </div>
       </main>
 
