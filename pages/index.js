@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Navbar from '../styles/Navbar.css'
 
 export default function Home() {
   return (
@@ -8,11 +9,13 @@ export default function Home() {
       <Head>
         <title>Sadboi-Web</title>
       </Head>
+      <Navbar>
+        Hi
+      </Navbar>
       <main className={styles.main}>
         <div className={styles.title}>CPE Sadboi Profile</div>
         <div className={styles.mainli}>
           <Link href="https://github.com/nwtkd"><li><a>Niwatchai Wangtrakuldee (Fifa)</a></li></Link>
-          <Link href="https://github.com/ksupasate"><li><a>Supasate Vorathammathorn (Kom)</a></li></Link>
         </div>
       </main>
 
