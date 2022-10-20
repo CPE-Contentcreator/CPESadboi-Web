@@ -2,17 +2,27 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Kanit;
+  list-style: none;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
+  display: block;
+  transition:.2s;
+  text-decoration: none !important;
+}
+a:hover{
+  background-color: rgba(255, 255, 255, .1);
 }
 
 * {
   box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
