@@ -16,6 +16,7 @@ export default function Home() {
         <div className={styles.title}>CPE Sadboi Profile</div>
         <div className={styles.mainli}>
           <Link href="https://github.com/nwtkd"><li><a>Niwatchai Wangtrakuldee (Fifa)</a></li></Link>
+          <Link href="https://github.com/ksupasate"><li><a>Supasate Vorathammathorn (Kom)</a></li></Link>
         </div>
       </main>
 
