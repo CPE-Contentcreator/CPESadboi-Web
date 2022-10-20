@@ -16,6 +16,8 @@ export default function Home() {
                 <a>Napat Wareedee</a>
               </li>
             </Link>
+            <Link href="https://github.com/nwtkd"><li><a>Niwatchai Wangtrakuldee (Fifa)</a></li></Link>
+            <Link href="https://github.com/ksupasate"><li><a>Supasate Vorathammathorn (Kom)</a></li></Link>
           </div>
         </main>
 
