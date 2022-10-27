@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div >
-      <li onClick={handleClick}>63070501092 Surasee Saenburanapan{open ? <ExpandMore /> : <ExpandLess />}</li>
+      <li onClick={handleClick}>63070501092 Surasee Saenburanapan (Tae){open ? <ExpandMore /> : <ExpandLess />}</li>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <Link href="https://www.facebook.com/BestboySurasee/"><li><a><FacebookIcon ></FacebookIcon>  Facebook</a></li></Link>
         <Link href="https://www.instagram.com/ssx7ay/"><li><a><InstagramIcon></InstagramIcon>  Instagram</a></li></Link>
